@@ -36,6 +36,9 @@ public class Q2CharRotate {
      * and calls charRotate function. If input is not valid, throws InvalidParameterException.
      * If there is no input, calls charRotate function with example values.
      * 
+     * Example Input: TextToBeFlipped 3
+     * Example Output: pedTextToBeFlip
+     * 
      * @param args is the user input, first value is the String to be rotated
      * the second value is the number that determines how many letters will be rotated.
      * @throws InvalidParameterException

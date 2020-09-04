@@ -32,10 +32,17 @@ public class Q1AboveBelow {
     /**
      * Main function checks for a valid input from user, if there is
      * it processes the input if there is not then executes the example input.
+     * The first integer in input is the threshold value, rest of the values
+     * creates the array to be compared.
+     * 
      * If the input is not valid, then throws invalid parameter exception.
      * 
-     * @throws InvalidParameterException
+     * Example Input: 5 1 4 9 8 10 2 5 7 6 -5 1
+     * Example Output: above: 5, below: 5
+     * 5 is the threshold value and array is [1 4 9 8 10 2 5 7 6 -5 1]
+     * 
      * @param args is the user input.
+     * @throws InvalidParameterException
      */
     public static void main (String[] args) {
         
