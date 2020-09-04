@@ -23,10 +23,10 @@ public class Q2CharRotate {
         if (value < 0) throw new InvalidParameterException("Value Not Valid");
         
         int length = input.length();
-        for (int i = 0; i < value % length; i++) {
-            String l = input.substring(length - 1);
-            input = l + input.substring(0, length - 1);
-        }
+        int numOfLetters = value % length;
+       
+        String flippedLetters = input.substring(length - numOfLetters);
+        input = flippedLetters + input.substring(0, length - numOfLetters);
        
         System.out.println(input);
     }
